@@ -1,0 +1,354 @@
+ [
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "I received the phone, but the screen is cracked right out of the box."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Phone\", \"brief_description\": \"Received product with cracked screen\", \"issue_classification\": \"Product Defect or Problem\"}"
+        }
+      ]
+    },
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "The laptop I ordered arrived in a completely damaged box. The packaging was torn and wet."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Laptop\", \"brief_description\": \"Damaged and wet packaging during delivery\", \"issue_classification\": \"Packaging and Shipping\"}"
+        }
+      ]
+    },
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "This smartwatch is nothing like what was advertised. The battery life is terrible and the features are basic."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Smartwatch\", \"brief_description\": \"Product not meeting advertised specifications\", \"issue_classification\": \"General Dissatisfaction\"}"
+        }
+      ]
+    },
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "The camera keeps shutting down randomly during use. I've only had it for a week."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Camera\", \"brief_description\": \"Random shutdowns during operation\", \"issue_classification\": \"Product Defect or Problem\"}"
+        }
+      ]
+    },
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "My order was supposed to arrive yesterday, but the tracking hasn't updated in 5 days."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Unknown\", \"brief_description\": \"Delayed delivery and tracking issues\", \"issue_classification\": \"Packaging and Shipping\"}"
+        }
+      ]
+    },
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "The keyboard's spacebar keeps sticking and it's really frustrating to type."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Keyboard\", \"brief_description\": \"Sticky spacebar affecting typing\", \"issue_classification\": \"Product Defect or Problem\"}"
+        }
+      ]
+    },
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "This tablet is so slow and laggy. The performance is nowhere near what I expected for the price."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Tablet\", \"brief_description\": \"Poor performance relative to price\", \"issue_classification\": \"General Dissatisfaction\"}"
+        }
+      ]
+    },
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "The delivery person left my package in the rain without even ringing the doorbell."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Unknown\", \"brief_description\": \"Package left exposed to rain during delivery\", \"issue_classification\": \"Packaging and Shipping\"}"
+        }
+      ]
+    },
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "The printer's wireless connection keeps dropping every few minutes. I've tried everything in the manual."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Printer\", \"brief_description\": \"Unstable wireless connection\", \"issue_classification\": \"Product Defect or Problem\"}"
+        }
+      ]
+    },
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "The speakers produce a constant buzzing sound even when nothing is playing."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Speakers\", \"brief_description\": \"Constant background buzzing noise\", \"issue_classification\": \"Product Defect or Problem\"}"
+        }
+      ]
+    },
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "I'm very disappointed with the quality of this monitor. The colors are washed out and viewing angles are terrible."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Monitor\", \"brief_description\": \"Poor display quality and viewing angles\", \"issue_classification\": \"General Dissatisfaction\"}"
+        }
+      ]
+    },
+    {
+      "conversations": [
+        {
+          "role": "system",
+          "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+        },
+        {
+          "role": "user",
+          "content": "The wrong model of headphones was delivered to me. I ordered the wireless version but got the wired ones."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"product_name\": \"Headphones\", \"brief_description\": \"Incorrect model delivered\", \"issue_classification\": \"Packaging and Shipping\"}"
+        }
+      ]
+    },
+    {
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+    },
+    {
+      "role": "user",
+      "content": "The gaming console arrived today but the power adapter is missing from the box."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"product_name\": \"Gaming Console\", \"brief_description\": \"Missing power adapter in package\", \"issue_classification\": \"Packaging and Shipping\"}"
+    }
+  ]
+},
+{
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+    },
+    {
+      "role": "user",
+      "content": "The microwave's touchpad buttons have stopped responding after just two weeks of use."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"product_name\": \"Microwave\", \"brief_description\": \"Unresponsive touchpad buttons\", \"issue_classification\": \"Product Defect or Problem\"}"
+    }
+  ]
+},
+{
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+    },
+    {
+      "role": "user",
+      "content": "This vacuum cleaner's suction power is much weaker than advertised. Not worth the premium price at all."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"product_name\": \"Vacuum Cleaner\", \"brief_description\": \"Weak suction power compared to advertising\", \"issue_classification\": \"General Dissatisfaction\"}"
+    }
+  ]
+},
+{
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+    },
+    {
+      "role": "user",
+      "content": "The e-reader's screen keeps freezing and requires constant restarts to work."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"product_name\": \"E-reader\", \"brief_description\": \"Frequent screen freezes requiring restarts\", \"issue_classification\": \"Product Defect or Problem\"}"
+    }
+  ]
+},
+{
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+    },
+    {
+      "role": "user",
+      "content": "My package shows as delivered but I haven't received anything. I've checked with all my neighbors."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"product_name\": \"Unknown\", \"brief_description\": \"Package marked delivered but not received\", \"issue_classification\": \"Packaging and Shipping\"}"
+    }
+  ]
+},
+{
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+    },
+    {
+      "role": "user",
+      "content": "The blender's blades are already dull after just a few uses. Can't even crush ice properly."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"product_name\": \"Blender\", \"brief_description\": \"Premature blade dulling\", \"issue_classification\": \"Product Defect or Problem\"}"
+    }
+  ]
+},
+{
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+    },
+    {
+      "role": "user",
+      "content": "This smart thermostat is way too complicated to use. The interface is confusing and the manual isn't helpful."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"product_name\": \"Smart Thermostat\", \"brief_description\": \"Difficult to use, confusing interface\", \"issue_classification\": \"General Dissatisfaction\"}"
+    }
+  ]
+},
+{
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+    },
+    {
+      "role": "user",
+      "content": "The webcam's auto-focus feature is completely broken. It constantly blurs during video calls."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"product_name\": \"Webcam\", \"brief_description\": \"Malfunctioning auto-focus system\", \"issue_classification\": \"Product Defect or Problem\"}"
+    }
+  ]
+},
+{
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+    },
+    {
+      "role": "user",
+      "content": "The security camera's night vision barely works. Can hardly see anything in low light conditions."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"product_name\": \"Security Camera\", \"brief_description\": \"Poor night vision performance\", \"issue_classification\": \"Product Defect or Problem\"}"
+    }
+  ]
+},
+{
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are an AI designed to assist in interpreting customer support tickets. Your task is to analyze the text of a ticket and extract three details in JSON format:\n\n1. **Product Name**: Identify the product mentioned in the ticket. If no product name is mentioned, return \"Unknown.\"\n2. **Brief Description**: Summarize the issue in a few words based on the ticket's content.\n3. **Issue Classification**: Classify the nature of the issue into one of the following categories:\n   - **Packaging and Shipping**: \n   - **Product Defect or Problem**: \n   - **General Dissatisfaction**: \n\nReturn the information as a JSON string with 3 properties: `product_name`, `brief_description`, `issue_classification`."
+    },
+    {
+      "role": "user",
+      "content": "Received the router today but the box was completely crushed. I'm worried about internal damage."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"product_name\": \"Router\", \"brief_description\": \"Crushed package during shipping\", \"issue_classification\": \"Packaging and Shipping\"}"
+    }
+  ]
+}
+]
