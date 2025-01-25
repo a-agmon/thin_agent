@@ -76,7 +76,7 @@ impl LlamaApp {
         // We'll generate until we hit 1000 tokens or an EOG (end-of-generation) token
         while n_cur <= max_generation_tokens {
             // 1) Sample next token
-            let token = sampler.sample(&ctx, (batch.n_tokens() - 1));
+            let token = sampler.sample(&ctx, batch.n_tokens() - 1);
             // Accept the token (update internal state in the sampler, if any)
             sampler.accept(token);
 
