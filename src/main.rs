@@ -63,9 +63,3 @@ struct ClassifyTicketResponse {
     issue_classification: String,
 }
 
-/*
-curl -X POST http://127.0.0.1:3000/classify_ticket \
-  -H 'Content-Type: application/json' \
-  -d '{"text": "I just got the kettle and its not working"}'
-
-*/
