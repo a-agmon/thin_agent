@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is the companion code for the blog post "Thin Agents: Building LLM-Powered Microservices for Commodity Hardware". It demonstrates how to create a simple, lean, and task-specific AI-powered microservice using Rust and Unsloth.
+This repository is the companion code for the blog post ["Thin Agents: Creating Lean AI Services with Local Fine-Tuned LLMs"](https://towardsdatascience.com/thin-agents-creating-lean-ai-services-with-local-fine-tuned-llms-6253233d9798). It demonstrates how to create a simple, lean, and task-specific AI-powered microservice using Rust and Unsloth.
 
 The project focuses on building a lightweight AI-powered ticket routing service for a call center application. This service uses a locally hosted, fine-tuned, and quantized version of Llama 3.2 1B to classify customer support tickets based on their content, improving routing accuracy without requiring extensive AI infrastructure.
 
